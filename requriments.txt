@@ -1,0 +1,10 @@
+ollama
+langchain_ollama
+yfinance
+pymongo
+openai
+requests
+kivy
+kivymd
+speechrecognition
+
