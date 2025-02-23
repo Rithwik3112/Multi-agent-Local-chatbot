@@ -1,0 +1,30 @@
+from langchain.prompts import PromptTemplate
+from langchain_ollama import ChatOllama
+
+def get_time_table(user_input):
+    # Read timetable data from the .txt file
+    with open("timetable.txt", "r", encoding="utf-8") as file:
+        timetable_data = file.read()
+
+    # Define a prompt template
+    prompt = PromptTemplate(
+        input_variables=["timetable", "query"],
+        template="Here is the timetable:\n\n{timetable}\n\nUser query: {query}\n\nProvide the most relevant information."
+    )
+
+    # Format the prompt with timetable data and user input
+    formatted_prompt = prompt.format(timetable=timetable_data, query=user_input)
+
+    # Initialize ChatOllama
+    llm = ChatOllama(model="lappy")
+
+    # Stream the response
+    response_stream = llm.stream([{"role": "user", "content": formatted_prompt}])
+
+    # Print streaming output as it arrives
+    for chunk in response_stream:
+        print(chunk, end="", flush=True)
+
+# Example usage
+user_query = "What is the schedule for Monday?"
+get_time_table(user_query)

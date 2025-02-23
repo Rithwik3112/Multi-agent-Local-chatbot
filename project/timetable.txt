@@ -1,0 +1,335 @@
+```json
+{
+  "timetable": {
+    "Monday": {
+      "9:00 to 10:00": {
+        "subject": "Computer Networks",
+        "instructor": "Dr Ram Murat Singh",
+        "room": "C-204(221)"
+      },
+      "10:00 to 11:00": {
+        "subject": "Operating System",
+        "instructor": "Dr. Venkat Reddy P",
+        "room": "C-204(221)"
+      },
+      "11:10 to 12:10": {
+        "subject": null,
+        "instructor": null,
+        "room": null
+      },
+      "12:10 to 1:10": {
+        "subject": "Artificial and Computational Intelligence",
+        "instructor": "Dr. Purushotham M",
+        "room": "C-204(221)"
+      },
+      "1:10 to 2:10": {
+        "subject": null,
+        "instructor": null,
+        "room": null
+      },
+      "2:15 to 3:15": {
+        "subject": "Numerical Ability & Personality Refinement",
+        "instructor": "Mr. Naveen Kumar",
+        "room": "C-204(221)"
+      },
+      "3:15 to 4:15": {
+        "subject": null,
+        "instructor": null,
+        "room": null
+      },
+      "4:20 to 5:20": {
+        "subject": null,
+        "instructor": null,
+        "room": null
+      },
+      "5:20 to 6:20": {
+        "subject": null,
+        "instructor": null,
+        "room": null
+      }
+    },
+    "Tuesday": {
+      "9:00 to 10:00": {
+        "subject": "Web Technologies",
+        "instructor": "Dr Kiran Siripuri",
+        "room": "C-204(221)"
+      },
+      "10:00 to 11:00": {
+        "subject": "Artificial and Computational Intelligence",
+        "instructor": "Dr. Purushotham M",
+        "room": "C-204(221)"
+      },
+      "11:10 to 12:10": {
+        "subject": "Web Technologies Lab",
+        "instructor": "Dr Kiran Siripuri, Mr R Gopinadh",
+        "room": "C-204(221)"
+      },
+      "12:10 to 1:10": {
+        "subject": null,
+        "instructor": null,
+        "room": null
+      },
+      "1:10 to 2:10": {
+        "subject": null,
+        "instructor": null,
+        "room": null
+      },
+      "2:15 to 3:15": {
+        "subject": "Operating System Lab",
+        "instructor": "Mr Ravi Kumar, Mr ALI",
+        "room": "C-204(221)"
+      },
+      "3:15 to 4:15": {
+        "subject": "Responsible Leadership",
+        "instructor": "Dr Sunaina",
+        "room": "C-204(221)"
+      },
+      "4:20 to 5:20": {
+        "subject": null,
+        "instructor": null,
+        "room": null
+      },
+      "5:20 to 6:20": {
+        "subject": null,
+        "instructor": null,
+        "room": null
+      }
+    },
+    "Wednesday": {
+      "9:00 to 10:00": {
+        "subject": "Web Technologies",
+        "instructor": "Dr Kiran Siripuri",
+        "room": "C-204(221)"
+      },
+      "10:00 to 11:00": {
+        "subject": "Artificial and Computational Intelligence Lab",
+        "instructor": "Dr. Purushotham M, Ms Saraswati Nayakanti, Mr. Ankit",
+        "room": "C-204(221)"
+      },
+      "11:10 to 12:10": {
+        "subject": "Operating System",
+        "instructor": "Dr. Venkat Reddy P",
+        "room": "C-204(221)"
+      },
+      "12:10 to 1:10": {
+        "subject": null,
+        "instructor": null,
+        "room": null
+      },
+      "1:10 to 2:10": {
+        "subject": null,
+        "instructor": null,
+        "room": null
+      },
+      "2:15 to 3:15": {
+        "subject": null,
+        "instructor": null,
+        "room": null
+      },
+      "3:15 to 4:15": {
+        "subject": null,
+        "instructor": null,
+        "room": null
+      },
+      "4:20 to 5:20": {
+        "subject": null,
+        "instructor": null,
+        "room": null
+      },
+      "5:20 to 6:20": {
+        "subject": null,
+        "instructor": null,
+        "room": null
+      }
+    },
+    "Thursday": {
+      "9:00 to 10:00": {
+        "subject": "Responsible Leadership",
+        "instructor": "Dr Sunaina",
+        "room": "C-204(221)"
+      },
+      "10:00 to 11:00": {
+        "subject": "Computer Networks",
+        "instructor": "Dr Ram Murat Singh",
+        "room": "C-204(221)"
+      },
+      "11:10 to 12:10": {
+        "subject": "Numerical Ability & Personality Refinement",
+        "instructor": "Ms. Srijata Chakrabarty",
+        "room": "C-204(221)"
+      },
+      "12:10 to 1:10": {
+        "subject": "Operating System",
+        "instructor": "Dr. Venkat Reddy P",
+        "room": "C-204(221)"
+      },
+      "1:10 to 2:10": {
+        "subject": null,
+        "instructor": null,
+        "room": null
+      },
+      "2:15 to 3:15": {
+        "subject": null,
+        "instructor": null,
+        "room": null
+      },
+      "3:15 to 4:15": {
+        "subject": null,
+        "instructor": null,
+        "room": null
+      },
+      "4:20 to 5:20": {
+        "subject": null,
+        "instructor": null,
+        "room": null
+      },
+      "5:20 to 6:20": {
+        "subject": null,
+        "instructor": null,
+        "room": null
+      }
+    },
+    "Friday": {
+      "9:00 to 10:00": {
+        "subject": null,
+        "instructor": null,
+        "room": null
+      },
+      "10:00 to 11:00": {
+        "subject": null,
+        "instructor": null,
+        "room": null
+      },
+      "11:10 to 12:10": {
+        "subject": null,
+        "instructor": null,
+        "room": null
+      },
+      "12:10 to 1:10": {
+        "subject": "Artificial and Computational Intelligence",
+        "instructor": "Dr. Purushotham M",
+        "room": "C-204(221)"
+      },
+      "1:10 to 2:10": {
+        "subject": null,
+        "instructor": null,
+        "room": null
+      },
+      "2:15 to 3:15": {
+        "subject": "Computer Networks Lab",
+        "instructor": "Ms Ashima Sood, Ms K Shreelaxmi",
+        "room": "C-204(221)"
+      },
+      "3:15 to 4:15": {
+        "subject": "Computer Networks",
+        "instructor": "Dr Ram Murat Singh",
+        "room": "C-204(221)"
+      },
+      "4:20 to 5:20": {
+        "subject": null,
+        "instructor": null,
+        "room": null
+      },
+      "5:20 to 6:20": {
+        "subject": null,
+        "instructor": null,
+        "room": null
+      }
+    },
+    "saturday": {
+      "9:00 to 10:00": {
+        "subject": null,
+        "instructor": null,
+        "room": null
+      },
+      "10:00 to 11:00": {
+        "subject": null,
+        "instructor": null,
+        "room": null
+      },
+      "11:10 to 12:10": {
+        "subject": null,
+        "instructor": null,
+        "room": null
+      },
+      "12:10 to 1:10": {
+        "subject": null,
+        "instructor": null,
+        "room": null
+      },
+      "1:10 to 2:10": {
+        "subject": null,
+        "instructor": null,
+        "room": null
+      },
+      "2:15 to 3:15": {
+        "subject": null,
+        "instructor": null,
+        "room": null
+      },
+      "3:15 to 4:15": {
+        "subject": null,
+        "instructor": null,
+        "room": null
+      },
+      "4:20 to 5:20": {
+        "subject": null,
+        "instructor": null,
+        "room": null
+      },
+      "5:20 to 6:20": {
+        "subject": null,
+        "instructor": null,
+        "room": null
+      }
+    },
+    "sunday": {
+      "9:00 to 10:00": {
+        "subject": null,
+        "instructor": null,
+        "room": null
+      },
+      "10:00 to 11:00": {
+        "subject": null,
+        "instructor": null,
+        "room": null
+      },
+      "11:10 to 12:10": {
+        "subject": null,
+        "instructor": null,
+        "room": null
+      },
+      "12:10 to 1:10": {
+        "subject": null,
+        "instructor": null,
+        "room": null
+      },
+      "1:10 to 2:10": {
+        "subject": null,
+        "instructor": null,
+        "room": null
+      },
+      "2:15 to 3:15": {
+        "subject": null,
+        "instructor": null,
+        "room": null
+      },
+      "3:15 to 4:15": {
+        "subject": null,
+        "instructor": null,
+        "room": null
+      },
+      "4:20 to 5:20": {
+        "subject": null,
+        "instructor": null,
+        "room": null
+      },
+      "5:20 to 6:20": {
+        "subject": null,
+        "instructor": null,
+        "room": null
+      }
+    }
+  }
+}
+```
